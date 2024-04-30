@@ -1,0 +1,101 @@
+# Copyright (C) 2022 SuperAdmin <marcello.gribaudo@opigi.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleManufacturingProductionName'
+ModuleManufacturingProductionName = Produzione manufatturiera - Contabilità Analitica
+# Module description 'ModuleManufacturingProductionDesc'
+ModuleManufacturingProductionDesc = Gestione della produzione industriale e della contabilità analitica per centri di costo
+
+#
+# Admin page
+#
+ManufacturingProductionSetup = Impostazioni Modulo Produzione
+Settings = Impostazioni
+ManufacturingProductionSetupPage = Pagina Impostazioni Modulo Produzione
+MANUFACTURINGPRODUCTION_MO_DEFAULT_DESC=Descrizione di default in Ordine di Produzione
+MANUFACTURINGPRODUCTION_MO_DEFAULT_DESCTooltip=Descrizione utilizzata nelle creazione delle righe di giornale alla creazione dell'Ordine di Produzione. Puo contenere le substitution variables: __MO_REF__ Rif. dell'ordine, __MO_LABEL__  Titolo dell'ordine, __MO_DATE__ Data dell'ordine 
+MANUFACTURINGPRODUCTION_USER_DEFAULT_DESC=Descrizione di default in Ore Personale
+MANUFACTURINGPRODUCTION_USER_DEFAULT_DESCTooltip=Descrizione utilizzata nelle creazione delle righe di giornale all'inserimento delle ore del personale.
+MANUFACTURINGPRODUCTION_USER_DETAIL=Dettaglio Utente in Ore Personale
+MANUFACTURINGPRODUCTION_USER_DETAILTooltip=Definisce se le Ore Personale sono gestire a livelli di utente o totalizzate per progetto/centro di costo/data
+MANUFACTURINGPRODUCTION_MATERIAL_COSTCENTER=Centro di costo materiali
+MANUFACTURINGPRODUCTION_MATERIAL_COSTCENTERTooltip=Contiene il centro di costo proposto, nelle distinte basi, a cui associare i costi dei materiali al momento della creazione di un ordine di produzione
+MANUFACTURINGPRODUCTION_WORKHOUR_GROUPING=Criterio Raggruppamento ore Lavorate
+MANUFACTURINGPRODUCTION_WORKHOUR_GROUPINGTooltip=Definisce il criterio di raggruppamento delle ore nella funzione Tempo Lavorato
+
+
+#
+# About page
+#
+About = Su
+ManufacturingProductionAbout = Su Modulo Produzione
+ManufacturingProductionAboutPage = Pagina Su Modulo Produzione
+
+# Permessi
+Permission220821001=Vedere la produzione
+Permission220821002=Creare/Modificare i dati di produzione
+Permission220821003=Cancellare i dati di produzione
+Permission220821004=Vedere i centri di costo
+Permission220821005=Creare/Modificare i centri di costo
+Permission220821006=Cancellare i centri di costo
+Permission220821007=Vedere gli importi del giornale
+
+# Altre
+CostCenter=Centro di costo
+CostCenters=Centri di costo
+Master=Mastro
+Detail=Conto
+Sub_detail=Sottoconto
+ListCostCenter=Elenco centri di costo
+NewCostCenter=Nuovo centro di costo
+Cost=Costo
+Revenue=Ricavo
+ParentLevelIsEmpty=Il conto non può essere vuoto
+ParentLevelMustExist=Deve essere definito il conto pafrente
+TypeNotCongruous=Il tipo non è congruo con quello dei parenti
+ThereAreSons=Cancellazione Impossibile - Esistono figli
+ListJournal=Elenco movimenti
+NewJournal=Nuovo Movimento
+Journals=Elenco movimenti contabilità industriale
+Journal=Movimento
+Staff=Personale
+Production=Produzione
+Material=Materiali
+ProductionTab=Produzione
+MaterialCostCenter=Centro di costo Materiale
+MaterialCostCenterTooltip=E' il centro di costo a cui verranno associati i costi di materiale in fase di produzione
+DeleteJournal=Cancellazione del movimento
+Daily=Giornaliero
+Weekly=Settimanale
+Monthly=Mensile
+NoCostcenterForUser=L'utente %s non ha un centro di costo associato, operazione annullata
+MoreThanOneJournalLine=Esisono %s righe di giornale per il centro di costo/giorno/progetto, solo 1 è consentita. Operazione annullata
+AnalyticalAccounting=Contabilità Analitica
+CreateReportExcel=Creazione Report Excel
+CreateReportCsv=Creazione Report CSV
+ReportDetail=Dettaglio Report
+Syntetic=Sintetica
+Analytical=Analitica
+JournalDetail=Con dettaglio giornale
+JournalFlat=Giornale (Senza totali)
+DateTotalization=Totalizzazione Date
+Alls=Tutti
+Quarter=quadrimestre
+Level=Livello

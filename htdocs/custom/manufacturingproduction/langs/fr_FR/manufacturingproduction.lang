@@ -1,0 +1,140 @@
+# Copyright (C) 2022 SuperAdmin <marcello.gribaudo@opigi.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleManufacturingProductionName'
+ModuleManufacturingProductionName = Production manufacturière - Comptabilité Analytique
+# Module description 'ModuleManufacturingProductionDesc'
+ModuleManufacturingProductionDesc = Gestion de la production industrielle et comptabilité analytique des centres de coûts
+
+#
+# Admin page
+#
+ManufacturingProductionSetup = Paramétrage de la comptabilité analytique
+Settings = Paramètres
+ManufacturingProductionSetupPage = Page de configuration de la comptabilité analytique
+MANUFACTURINGPRODUCTION_MO_DEFAULT_DESC=Description par défaut dans l'ordre de fabrication
+MANUFACTURINGPRODUCTION_MO_DEFAULT_DESCTooltip=Description utilisée dans la création des lignes de journal lors de la création de l'ordre de fabrication. Il peut contenir les variables de substitution : __MO_REF__ Réf. commande, __MO_LABEL__ Titre commande, __MO_DATE__ Date commande
+MANUFACTURINGPRODUCTION_USER_DEFAULT_DESC=Description par défaut dans les heures du personnel
+MANUFACTURINGPRODUCTION_USER_DEFAULT_DESCTooltip=Description utilisée dans la création des lignes de journal lors de la saisie des heures du personnel.
+MANUFACTURINGPRODUCTION_USER_DETAIL=Détails de l'utilisateur dans les heures personnelles
+MANUFACTURINGPRODUCTION_USER_DETAILTooltip=Définit si les heures du personnel sont gérées au niveau des utilisateurs ou totalisées par projet/centre de coûts/date
+MANUFACTURINGPRODUCTION_MATERIAL_COSTCENTER=Centre de coût matériel
+MANUFACTURINGPRODUCTION_MATERIAL_COSTCENTERTooltip=Contient le centre de coûts proposé, dans les nomenclatures, auquel associer les coûts des matières lors de la création d'un ordre de fabrication
+MANUFACTURINGPRODUCTION_WORKHOUR_GROUPING=Critère Regroupement des heures travaillées
+MANUFACTURINGPRODUCTION_WORKHOUR_GROUPINGTooltip=Définit le critère de regroupement des heures dans la fonction Temps travaillé
+
+#
+# About page
+#
+About = À propos
+ManufacturingProductionAbout = À propos de la comptabilité analytique
+ManufacturingProductionAboutPage = Page à propos del la Comptabilité analytique 
+
+# Autorisations
+Permission220821001=Voir la fabrication
+Permission220821002=Créer/Modifier les données de production
+Permission220821003=Supprimer les données de production
+Permission220821004=Voir les centres de coûts
+Permission220821005=Créer/Modifier des centres de coûts
+Permission220821006=Supprimer les centres de coûts
+Permission220821007=Voir les montants du journal
+
+# Autres
+CostCenter=Centre de coûts
+CostCenters=Centres de coûts
+Master=Maître
+Detail=Compte
+Sub_detail=Sous-compte
+ListCostCenter=Liste des centres de coûts
+NewCostCenter=Nouveau centre de coûts
+Cost=Coût
+Revenue=Revenu
+ParentLevelIsEmpty=Le compte ne peut pas être vide
+ParentLevelMustExist=Le compte parent doit être défini
+TypeNotCongruous=Le type n'est pas congru avec celui des parents
+ThereAreSons=Impossible de supprimer - Il y a des enfants
+ListJournal=Liste des mouvements
+NewJournal=Nouveau mouvement
+Journals=Liste des opérations de comptabilité analytique
+Journal=Mouvement
+Staff=Personnel
+Production=Production
+Material=Matériaux
+ProductionTab=Production
+MaterialCostCenter=Centre de coût matériel
+MaterialCostCenterTooltip=C'est le centre de coûts auquel seront associés les coûts matières en phase de production
+DeleteJournal=Annulation de mouvement
+Daily=Quotidien
+Weekly=Hebdomadaire
+Monthly=Mensuel
+NoCostcenterForUser=L'utilisateur %s n'a pas de centre de coût associé, opération annulée
+MoreThanOneJournalLine=Il y a %s lignes de journal pour le centre de coûts/jour/projet, une seule est autorisée. Opération annulée
+AnalyticalAccounting=Comptabilité Analytique
+CreateReportExcel=Création de rapports Excel
+CreateReportCsv=Création de rapport CSV
+ReportDetail=Détail du rapport
+Syntetic=Synthétique
+Analytical=Analytique
+JournalDetail=Avec détail de journal
+JournalFlat=Journal (pas de totaux)
+DateTotalization=Dates de totalisation
+Alls=Tous
+Quarter=Trimestre
+Level=Niveau
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

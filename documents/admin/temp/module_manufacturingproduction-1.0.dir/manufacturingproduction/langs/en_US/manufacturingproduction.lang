@@ -1,0 +1,140 @@
+# Copyright (C) 2022 SuperAdmin <marcello.gribaudo@opigi.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleManufacturingProductionName'
+ModuleManufacturingProductionName = Manufacturing production - Analytical Accounting
+# Module description 'ModuleManufacturingProductionDesc'
+ModuleManufacturingProductionDesc = Management of industrial production and cost center cost accounting
+
+#
+# Admin page
+#
+ManufacturingProductionSetup = Analytical Accounting setup
+Settings = Settings
+ManufacturingProductionSetupPage = Analytical Accounting setup page
+MANUFACTURINGPRODUCTION_MO_DEFAULT_DESC=Default description in Production Order
+MANUFACTURINGPRODUCTION_MO_DEFAULT_DESCTooltip=Description used in the creation of the journal lines when creating the Production Order. It can contain the substitution variables: __MO_REF__ Order ref., __MO_LABEL__ Order title, __MO_DATE__ Order date
+MANUFACTURINGPRODUCTION_USER_DEFAULT_DESC=Default description in Staff Hours
+MANUFACTURINGPRODUCTION_USER_DEFAULT_DESCTooltip=Description used in the creation of journal lines when entering staff hours.
+MANUFACTURINGPRODUCTION_USER_DETAIL=User Details in Personal Hours
+MANUFACTURINGPRODUCTION_USER_DETAILTooltip=Defines whether Staff Hours are managed at user levels or totalized by project/cost center/date
+MANUFACTURINGPRODUCTION_MATERIAL_COSTCENTER=Material cost center
+MANUFACTURINGPRODUCTION_MATERIAL_COSTCENTERTooltip=Contains the cost center proposed, in the bills of materials, to which to associate the costs of the materials when creating a production order
+MANUFACTURINGPRODUCTION_WORKHOUR_GROUPING=Criterion Grouping hours worked
+MANUFACTURINGPRODUCTION_WORKHOUR_GROUPINGTooltip=Defines the grouping criterion of the hours in the Time Worked function
+
+#
+# About page
+#
+About = About
+ManufacturingProductionAbout = About Analytical Accounting
+ManufacturingProductionAboutPage = Analytical Accounting about page
+
+# Permissions
+Permission220821001=See production
+Permission220821002=Create/Edit production data
+Permission220821003=Delete production data
+Permission220821004=See cost centers
+Permission220821005=Create/Modify cost centers
+Permission220821006=Delete cost centers
+Permission220821007=See the newspaper amounts
+
+# Other
+CostCenter=Cost center
+CostCenters=Cost centers
+Master=Master
+Detail=Detail
+Sub_detail=Sub_detail
+ListCostCenter=Cost center list
+NewCostCenter=New cost center
+Cost=Cost
+Revenue=Revenue
+ParentLevelIsEmpty=The account cannot be empty
+ParentLevelMustExist=The parent account must be defined
+TypeNotCongruous=The type is not congruous with that of the relatives
+ThereAreSons=Unable to delete - There are children
+ListJournal=Movement list
+NewJournal=New Movement
+Journals=List of cost accounting transactions
+Journal=Movement
+Staff=Personal
+Production=Production
+Material=Materials
+ProductionTab=Production
+MaterialCostCenter=Material cost center
+MaterialCostCenterTooltip=It is the cost center to which the material costs will be associated in the production phase
+DeleteJournal=Movement cancellation
+Daily=Daily
+Weekly=Weekly
+Monthly=Monthly
+NoCostcenterForUser=User %s does not have an associated cost center, operation cancelled
+MoreThanOneJournalLine=There are %s journal lines for the cost center/day/project, only 1 is allowed. Operation cancelled
+AnalyticalAccounting=Analytical Accounting
+CreateReportExcel=Creating Excel Reports
+CreateReportCsv=CSV Report Creation
+ReportDetail=Report Detail
+Syntetic=Synthetic
+Analytical=Analytical
+JournalDetail=With newspaper detail
+JournalFlat=Newspaper (No Totals)
+DateTotalization=Totalization Dates
+Alls=Everyone
+Quarter=Quarter
+Level=Level
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
